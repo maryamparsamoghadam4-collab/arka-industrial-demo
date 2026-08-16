@@ -1,0 +1,451 @@
+
+/* =========================================
+   ABOUT PAGE
+========================================= */
+
+.about-hero,
+.about-page-intro,
+.about-role,
+.about-approach,
+.about-closing {
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+
+/* =========================================
+   ABOUT CONTAINER
+========================================= */
+
+.about-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   ABOUT HERO
+========================================= */
+
+.about-hero {
+    min-height: 65vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 110px 8vw 100px;
+}
+
+.about-hero-content {
+    max-width: 850px;
+}
+
+.about-label {
+    display: block;
+
+    margin-bottom: 12px;
+
+    color: var(--primary-color);
+
+    font-size: 12px;
+    font-weight: 500;
+
+    letter-spacing: 0.18em;
+}
+
+.about-hero h1 {
+
+    margin: 0 0 28px;
+
+    color: var(--text-color);
+
+    font-size: 42px;
+    font-weight: 600;
+
+    line-height: 1.35;
+}
+
+.about-hero p {
+    max-width: 680px;
+
+    margin: 0;
+
+    color: var(--text-muted);
+
+    font-size: 17px;
+    line-height: 2;
+}
+
+
+/* =========================================
+   ABOUT INTRO
+========================================= */
+
+.about-page-intro {
+    padding: 70px 8vw;
+}
+
+.about-page-intro h2 {
+    max-width: 700px;
+
+    margin: 0 0 35px;
+
+    color: var(--text-color);
+
+    font-size: 32px;
+    font-weight: 600;
+
+    line-height: 1.6;
+}
+
+.about-text {
+    max-width: 780px;
+}
+
+.about-text p {
+    margin: 0 0 24px;
+
+    color: var(--text-muted);
+
+    font-size: 17px;
+    line-height: 2.2;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   ABOUT ROLE
+========================================= */
+
+.about-role {
+    padding: 110px 8vw;
+
+    background-color: var(--background-color);
+}
+
+.about-role-content {
+    max-width: 760px;
+}
+
+.about-role h2 {
+    margin: 0 0 30px;
+
+    color: var(--text-color);
+
+    font-size: 32px;
+    font-weight: 600;
+
+    line-height: 1.6;
+}
+
+.about-role p {
+    margin: 0 0 24px;
+
+    color: var(--text-muted);
+
+    font-size: 17px;
+    line-height: 2.2;
+}
+
+.about-role p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   ABOUT APPROACH
+========================================= */
+
+.about-approach {
+    padding: 110px 8vw;
+}
+
+.about-approach h2 {
+    max-width: 760px;
+
+    margin: 0 0 30px;
+
+    color: var(--text-color);
+
+    font-size: 32px;
+    font-weight: 600;
+
+    line-height: 1.6;
+}
+
+.about-approach p {
+    max-width: 780px;
+
+    margin: 0 0 24px;
+
+    color: var(--text-muted);
+
+    font-size: 17px;
+    line-height: 2.2;
+}
+
+.about-approach p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   ABOUT CLOSING
+========================================= */
+
+.about-closing {
+    padding: 120px 8vw;
+
+    border-top: 1px solid var(--border-dark);
+}
+
+.about-closing h2 {
+    max-width: 800px;
+
+    margin: 0 0 28px;
+
+    color: var(--text-color);
+
+    font-size: 38px;
+    font-weight: 600;
+
+    line-height: 1.5;
+}
+
+.about-closing p {
+    max-width: 680px;
+
+    margin: 0 0 35px;
+
+    color: var(--text-muted);
+
+    font-size: 17px;
+    line-height: 2.2;
+}
+
+
+/* =========================================
+   ABOUT BUTTON
+========================================= */
+
+.about-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 13px 26px;
+
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+
+    background-color: var(--primary-color);
+    color: var(--primary);
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.about-button:hover {
+    background-color: var(--accent-hover);
+
+    color: var(--background-color);
+
+    transform: translateY(-2px);
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+    .about-hero {
+        min-height: auto;
+
+        padding: 90px 6vw 80px;
+    }
+
+
+    .about-hero-content {
+        max-width: 760px;
+    }
+
+
+    .about-hero h1 {
+        margin-bottom: 24px;
+
+        font-size: clamp(32px, 4vw, 42px);
+    }
+
+
+    .about-hero p {
+        font-size: 16px;
+        line-height: 2;
+    }
+
+
+    .about-page-intro {
+        padding: 60px 6vw;
+    }
+
+
+    .about-page-intro h2,
+    .about-role h2,
+    .about-approach h2 {
+        margin-bottom: 28px;
+
+        font-size: clamp(26px, 3vw, 32px);
+    }
+
+
+    .about-text p,
+    .about-role p,
+    .about-approach p {
+        margin-bottom: 20px;
+
+        font-size: 16px;
+        line-height: 2;
+    }
+
+
+    .about-role {
+        padding: 80px 6vw;
+    }
+
+
+    .about-approach {
+        padding: 80px 6vw;
+    }
+
+
+    .about-closing {
+        padding: 90px 6vw;
+    }
+
+
+    .about-closing h2 {
+        margin-bottom: 24px;
+
+        font-size: clamp(30px, 3.5vw, 38px);
+    }
+
+
+    .about-closing p {
+        margin-bottom: 30px;
+
+        font-size: 16px;
+        line-height: 2;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .about-hero {
+        padding: 70px 5vw 60px;
+    }
+
+
+    .about-label {
+        margin-bottom: 10px;
+
+        font-size: 11px;
+    }
+
+
+    .about-hero h1 {
+        margin-bottom: 20px;
+
+        font-size: clamp(28px, 7vw, 34px);
+
+        line-height: 1.4;
+    }
+
+
+    .about-hero p {
+        font-size: 15px;
+        line-height: 1.9;
+    }
+
+
+    .about-page-intro {
+        padding: 50px 5vw;
+    }
+
+
+    .about-page-intro h2,
+    .about-role h2,
+    .about-approach h2 {
+        margin-bottom: 22px;
+
+        font-size: clamp(23px, 6vw, 28px);
+
+        line-height: 1.5;
+    }
+
+
+    .about-text p,
+    .about-role p,
+    .about-approach p {
+        margin-bottom: 18px;
+
+        font-size: 15px;
+
+        line-height: 2;
+    }
+
+
+    .about-role {
+        padding: 65px 5vw;
+    }
+
+
+    .about-approach {
+        padding: 65px 5vw;
+    }
+
+
+    .about-closing {
+        padding: 75px 5vw;
+    }
+
+
+    .about-closing h2 {
+        margin-bottom: 20px;
+
+        font-size: clamp(26px, 7vw, 32px);
+
+        line-height: 1.45;
+    }
+
+
+    .about-closing p {
+        margin-bottom: 25px;
+
+        font-size: 15px;
+    }
+
+
+    .about-button {
+        padding: 12px 22px;
+
+        font-size: 13px;
+    }
+
+}
