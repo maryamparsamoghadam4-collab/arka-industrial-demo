@@ -4,7 +4,7 @@ A premium, modern corporate website template designed for industrial and B2B com
 
 ## Live Demo
 
-[View Live Demo](https://maryamparsamogh...github.io/arka-industrial-demo/)
+[View Live Demo](https://maryamparsamoghadam4-collab.github.io/arka-industrial-demo/)
 
 ## About
 
